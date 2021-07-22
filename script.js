@@ -77,6 +77,10 @@ function trocarCor(){
             boy.backgroundColor = "pink";
         }else if(corDigitada === "pink"){
             boy.backgroundColor = "pink";
+        }else if(corDigitada === "marrom"){
+            boy.backgroundColor = "rgb(65, 32, 1)";
+        }else if(corDigitada === "brown"){
+            boy.backgroundColor = "rgb(65, 32, 1)";
         }
         else{
             alert("Se a cor que voce deseja aplicar não funcionou," +
