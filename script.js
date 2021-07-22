@@ -57,7 +57,28 @@ function trocarCor(){
             boy.backgroundColor = "orange";
         }else if(corDigitada === "branco"){
             boy.backgroundColor = "white";
-        }else{
+        }else if(corDigitada === "green"){
+            boy.backgroundColor = "green";
+        }else if(corDigitada === "orange"){
+            boy.backgroundColor = "orange";
+        }else if(corDigitada === "black"){
+            boy.backgroundColor = "black";
+        }else if(corDigitada === "yellow"){
+            boy.backgroundColor = "yellow";
+        }else if(corDigitada === "red"){
+            boy.backgroundColor = "red";
+        }else if(corDigitada === "blue"){
+            boy.backgroundColor = "blue";
+        }else if(corDigitada === "gray"){
+            boy.backgroundColor = "gray";
+        }else if(corDigitada === "purple"){
+            boy.backgroundColor = "purple";
+        }else if(corDigitada === "pink"){
+            boy.backgroundColor = "pink";
+        }else if(corDigitada === "pink"){
+            boy.backgroundColor = "pink";
+        }
+        else{
             alert("Se a cor que voce deseja aplicar não funcionou," +
             " teste coloca-lá em ingles e sem espaços");
         }
