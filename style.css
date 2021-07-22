@@ -5,7 +5,7 @@
 }
 body {
     display: flex;
-    min-height: 95vh;
+    min-height: 99vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -82,9 +82,17 @@ footer {
 }
 #composer #textCor {
     width: 100%;
+    height: 60px;
+    background-color: transparent;
     outline: none;
+    border: transparent;
+    border: 0px solid black;
+    padding: 0;
+    margin: 0;
     font-size: 17px;
     padding: 10px 15px;
+    cursor: pointer;
+    color: blue;
 }
 #composer button {
     width: 100%;
@@ -100,9 +108,28 @@ footer {
 #composer button:hover {
     background-color: rgba(0,0,0,0.2);
     transition: 0.1s;
-}   
+}
 #composer button:active {
     background-color: rgb(255, 255, 255);
     color: black;
     transition: 0.1s;
+}
+#composer h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -245px;
+    font-size: medium;
+    font-weight: 200;
+}
+#composer #mudeCor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -285px;
+    font-size: medium;
+    font-weight: 200;
+    color: white;
 }

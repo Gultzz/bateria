@@ -9,10 +9,11 @@
 </head>
 <body id="boy">
     <div id="composer">
-        <input type="text" id="textCor" placeholder="Digite uma cor">
+        <h1 id="mudeCor"><span>↓</span> Mude a cor aqui <span>↓</span></h1>
+        <h1 id="inner">#000000</h1>
+        <input type="color" name="textCor" id="textCor">
         <button onclick="trocarCor()">Trocar cor fundo</button>
-        <br><br>
-    </div>
+    </div><br>
     <h1>Bateria</h1>
     <div class="keys">
         <div data-key="keyq" onclick="playSound('keyq')" class="key">Q</div>
@@ -31,7 +32,7 @@
         <input type="text" id="input" onclick="musicar()" placeholder="Faça uma composição..." />
         <button>Tocar</button>
     </div>
-    
+
     <audio id="s_keyq" src="sounds/keyq.wav"></audio>
     <audio id="s_keyw" src="sounds/keyw.wav"></audio>
     <audio id="s_keye" src="sounds/keye.wav"></audio>
